@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always|withText"
+        android:orderInCategory="120">
+    </item>
+    <item
+        android:id="@+id/action_share"
+        android:title="share"
+        app:showAsAction="always"
+        android:orderInCategory="130"
+        android:icon="@drawable/ic_share">
+
+    </item>
+    <item
+        android:id="@+id/action_download"
+        android:title="Dowload"
+        android:orderInCategory="140"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        app:showAsAction="ifRoom"></item>
+</menu>
